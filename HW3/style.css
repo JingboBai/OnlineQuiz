@@ -1,0 +1,79 @@
+/*Author: Jingbo Bai*/
+
+body{
+  /*background-image: url(background3.jpg);*/
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  font-weight: bold;
+  height:800px;
+}
+#test{
+  /*background-color: #ff9966;*/
+  padding:30px;
+  border:1px solid white;
+  font-size: 120%;
+  min-width: 300px;
+}
+button#submit {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type='text']{
+  font-size: 25px;
+}
+#stop {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  width:100px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#resume {
+  background: #3498db;
+  border-radius: 28px;
+  font-family: Arial;
+  width:100px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+h4{
+  font-size: 125%;
+}
+
+#correct{
+  color:green;
+}
+#incorrect{
+  color:red;
+}
+#myImage{
+background-image: url('./img/quiz.jpg');
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: .6;
+height:830px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+input[type=radio] {
+height: 2em;
+transform: scale(1.4);
+}
